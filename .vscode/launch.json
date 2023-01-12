@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "pnpm dev /Users/plopix/Projects/CRYSTALLIZE/CLIENTS/KLEVU/quick-indexer/data.json",
+            "name": "Run application dev",
+            "request": "launch",
+            "type": "node-terminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
