@@ -19,11 +19,12 @@ async function main() {
         for (const variant of product.variants) {
             const record = convertVariantToDocument({
                 product,
-                ...variant
+                ...variant,
             });
             records.push({ record });
         }
     }
+
     const sessionId = await getSessionId();
     if (!sessionId) {
         throw new Error('No session id');
@@ -31,4 +32,4 @@ async function main() {
     const response = await pushToKlevu(sessionId, records, process.argv?.[3] === 'update');
     console.log(response);
 }
-main().catch(console.error)
+main().catch(console.error);

@@ -1,0 +1,48 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@tsconfig/node18': ^1
+  '@types/jstoxml': ^2.0.2
+  '@types/node': ^18
+  dotenv: ^16
+  jstoxml: ^3.2.6
+  typescript: ^4.9
+
+dependencies:
+  dotenv: 16.0.3
+  jstoxml: 3.2.6
+
+devDependencies:
+  '@tsconfig/node18': 1.0.1
+  '@types/jstoxml': 2.0.2
+  '@types/node': 18.11.18
+  typescript: 4.9.4
+
+packages:
+
+  /@tsconfig/node18/1.0.1:
+    resolution: {integrity: sha512-sNFeK6X2ATlhlvzyH4kKYQlfHXE2f2/wxtB9ClvYXevWpmwkUT7VaSrjIN9E76Qebz8qP5JOJJ9jD3QoD/Z9TA==}
+    dev: true
+
+  /@types/jstoxml/2.0.2:
+    resolution: {integrity: sha512-60VaXPlZbd7tEhloAkE2E0lg+QoWpnGusdy+2pGMGFFpdsyxm/1GKs0o/nLJJKWXci92cnq2utmqaV5L7Zjqxw==}
+    dev: true
+
+  /@types/node/18.11.18:
+    resolution: {integrity: sha512-DHQpWGjyQKSHj3ebjFI/wRKcqQcdR+MoFBygntYOZytCqNfkd2ZC4ARDJ2DQqhjH5p85Nnd3jhUJIXrszFX/JA==}
+    dev: true
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /jstoxml/3.2.6:
+    resolution: {integrity: sha512-qL+tO1hssrJe6KjqKHeWEhCUxiiq0dB5vkmCwPhY7AYCMec1U/4gQR1gu2ID0qb9/E9ItHxVbiUhpFw3TXiwsA==}
+    dev: false
+
+  /typescript/4.9.4:
+    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
